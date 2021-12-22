@@ -8,6 +8,9 @@ module.exports = {
         rose: '#f7c2d4',
         vert: '#275852',
       },
+      fontFamily: {
+        Signika: ['Signika', 'sans - serif'],
+      },
     },
   },
   plugins: [],

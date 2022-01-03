@@ -9,6 +9,7 @@ import home from '../data/Home';
 import concept from '../data/Concept';
 import abonnement from '../data/Abonnement';
 import services from '../data/Services';
+import Abonnement from '../components/Abonnement';
 
 const Pages = () => {
   const { pages } = useParams();
@@ -18,6 +19,7 @@ const Pages = () => {
       header: () => <Header data={data} />,
       logo: () => <Logo data={data} />,
       footer: () => <Footer data={data} />,
+      abonnement: () => <Abonnement data={data} />,
     };
     return component[type]();
   };

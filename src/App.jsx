@@ -1,11 +1,14 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Pages from './pages/Pages';
 
 const App = () => {
   return (
-    <div>
-      <Pages />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/:pages" element={<Pages />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

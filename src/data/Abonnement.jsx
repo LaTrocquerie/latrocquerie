@@ -1,3 +1,4 @@
+
 const AbonnementData = [
   {
     component: 'header',
@@ -13,6 +14,7 @@ const AbonnementData = [
     },
   },
   {
+
     component: 'abonnement',
     data: {
       title: 'Abonnements',
@@ -48,6 +50,13 @@ const AbonnementData = [
         },
       ],
       cls: '',
+
+    component: 'logo',
+    data: {
+      src: './assets/images/logo.png',
+      alt: 'logo de l entreprise',
+      cls: 'image',
+
     },
   },
   {
@@ -63,5 +72,6 @@ const AbonnementData = [
     },
   },
 ];
+
 
 export default AbonnementData;

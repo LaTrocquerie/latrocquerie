@@ -16,7 +16,7 @@ const Menu = [
     name: 'Contact',
   },
   {
-    to: '/service',
+    to: '/services',
     name: 'Service',
   },
 ];

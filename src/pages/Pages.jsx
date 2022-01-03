@@ -5,11 +5,13 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import Abonnement from '../components/Abonnement';
+import Contact from '../components/Contact';
 // data
 import home from '../data/Home';
 import concept from '../data/Concept';
 import abonnement from '../data/Abonnement';
 import services from '../data/Services';
+import contact from '../data/Contact';
 
 const Pages = () => {
   const { pages } = useParams();
@@ -20,6 +22,7 @@ const Pages = () => {
       logo: () => <Logo data={data} />,
       footer: () => <Footer data={data} />,
       abonnement: () => <Abonnement data={data} />,
+      contact: () => <Contact data={data} />,
     };
     return component[type]();
   };
@@ -27,6 +30,7 @@ const Pages = () => {
     const DetailsPages = {
       concept,
       abonnement,
+      contact,
       services,
     };
     const DetailsComp = DetailsPages[pages] || home;

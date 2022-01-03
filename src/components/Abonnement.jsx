@@ -9,9 +9,9 @@ const Abonnement = ({ data }) => {
         <br />
         <div className="details">
           {data.details.map((detail) => (
-            <p>
+            <p className="text-center">
               {detail.detail}
-              <p>{detail.description1}</p>
+              <p className="text-emerald-800">{detail.description1}</p>
               <p>{detail.description2}</p>
               <p>{detail.infoDescription1}</p>
               <br />

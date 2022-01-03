@@ -4,12 +4,12 @@ import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Logo from '../components/Logo';
+import Abonnement from '../components/Abonnement';
 // data
 import home from '../data/Home';
 import concept from '../data/Concept';
 import abonnement from '../data/Abonnement';
 import services from '../data/Services';
-import Abonnement from '../components/Abonnement';
 
 const Pages = () => {
   const { pages } = useParams();

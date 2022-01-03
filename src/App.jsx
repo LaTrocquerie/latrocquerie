@@ -1,11 +1,15 @@
-import RemoveMe from './components/RemoveMe';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Pages from './pages/Pages';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <RemoveMe />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/:pages" element={<Pages />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

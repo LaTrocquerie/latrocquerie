@@ -12,12 +12,16 @@ const Menu = [
     name: 'Abonnement',
   },
   {
-    to: '/contact',
-    name: 'Contact',
+    to: '/services',
+    name: 'Services',
   },
   {
-    to: '/services',
-    name: 'Service',
+    to: '/echange',
+    name: 'Echange',
+  },
+  {
+    to: '/contact',
+    name: 'Contact',
   },
 ];
 

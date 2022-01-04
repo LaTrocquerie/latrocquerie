@@ -1,4 +1,4 @@
-const ServicesData = [
+const ContactData = [
   {
     component: 'header',
     data: {
@@ -13,9 +13,9 @@ const ServicesData = [
     },
   },
   {
-    component: 'services',
+    component: 'contact',
     data: {
-      title: 'Services',
+      title: 'Contact',
       details: [],
       cls: '',
     },
@@ -34,4 +34,4 @@ const ServicesData = [
   },
 ];
 
-export default ServicesData;
+export default ContactData;

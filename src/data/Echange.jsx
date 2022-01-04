@@ -1,4 +1,4 @@
-const ServicesData = [
+const EchangeData = [
   {
     component: 'header',
     data: {
@@ -13,9 +13,9 @@ const ServicesData = [
     },
   },
   {
-    component: 'services',
+    component: 'echange',
     data: {
-      title: 'Services',
+      title: 'Echange',
       details: [],
       cls: '',
     },
@@ -34,4 +34,4 @@ const ServicesData = [
   },
 ];
 
-export default ServicesData;
+export default EchangeData;

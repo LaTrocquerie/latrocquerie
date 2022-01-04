@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import ArticleProjet from '../components/ArticleProjet';
 import Abonnement from '../components/Abonnement';
+import Article from '../components/Article';
 import Contact from '../components/Contact';
 import Services from '../components/Services';
 import Echange from '../components/Echange';
@@ -28,6 +29,7 @@ const Pages = () => {
       footer: () => <Footer data={data} />,
       articleProjet: () => <ArticleProjet data={data} />,
       abonnement: () => <Abonnement data={data} />,
+      article: () => <Article data={data} />,
       contact: () => <Contact data={data} />,
       services: () => <Services data={data} />,
       echange: () => <Echange data={data} />,
